@@ -32,7 +32,7 @@ export default function Web3CaseStudyCN({ onBack }: Web3CaseStudyCNProps) {
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
+              transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="text-4xl md:text-5xl font-bold leading-tight"
             >
               为 Web3 支付基础设施构建信任体验
@@ -40,18 +40,20 @@ export default function Web3CaseStudyCN({ onBack }: Web3CaseStudyCNProps) {
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.1 }}
+              transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.1 }}
               className="space-y-2 text-sm md:text-base text-white/60"
             >
               <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           >Web3 支付平台 - 从 0 到 1 的产品与设计体系建设</motion.p>
               <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           >打造面向全球支付场景的产品与品牌设计体系</motion.p>
             </motion.div>
           </div>
@@ -64,7 +66,8 @@ export default function Web3CaseStudyCN({ onBack }: Web3CaseStudyCNProps) {
             <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
               <Placeholder src="https://img.nickiresume.cn/videos/01-case1 banner.mp4" poster="https://img.nickiresume.cn/images/03web3/case01mp4layout.webp" aspect="620/370" type="video" />
@@ -77,20 +80,23 @@ export default function Web3CaseStudyCN({ onBack }: Web3CaseStudyCNProps) {
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-sm md:text-base text-white/60 mb-[10px]"
           >战略目标</motion.p>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-4xl md:text-5xl font-bold leading-tight mb-[32px]"
 
           >连接Web3社区文化 & 支付基础设施</motion.h2>
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder src="https://img.nickiresume.cn/images/03web3/01-1140x470CN.webp" aspect="1140/470" type="image" />
@@ -102,20 +108,23 @@ export default function Web3CaseStudyCN({ onBack }: Web3CaseStudyCNProps) {
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-sm md:text-base text-white/60 mb-[10px]"
           >设计挑战</motion.p>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-4xl md:text-5xl font-bold leading-tight mb-[32px]"
 
           >如何构建产品与系统设计</motion.h2>
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder src="https://img.nickiresume.cn/images/03web3/02-1140x250CN.webp" type="image" className="!h-[280px]" />
@@ -127,13 +136,15 @@ export default function Web3CaseStudyCN({ onBack }: Web3CaseStudyCNProps) {
             <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-sm md:text-base text-white/60 mb-[10px]"
           >设计策略</motion.p>
             <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-3xl md:text-5xl font-bold"
           >
               以<span className="text-[#00FF00]">信任</span>为核心的产品体系
@@ -148,20 +159,23 @@ export default function Web3CaseStudyCN({ onBack }: Web3CaseStudyCNProps) {
                 <motion.h3
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-xl md:text-2xl font-bold mb-3"
           >为全球支付构建一致且可信的产品体验</motion.h3>
                 <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-sm md:text-base text-white/60"
           >通过统一的产品体验，将全球使用与支付场景构建为可信任的扩展的产品体系</motion.p>
               </div>
               <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder src="https://img.nickiresume.cn/images/03web3/03-1140x360CN.webp" type="image" />
@@ -175,20 +189,23 @@ export default function Web3CaseStudyCN({ onBack }: Web3CaseStudyCNProps) {
                 <motion.h3
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-xl md:text-2xl font-bold mb-3"
           >支付安全与合规体系可视化</motion.h3>
                 <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-sm md:text-base text-white/60"
           >通过信息架构重组，将复杂的 Web3 安全与合规体系清晰呈现</motion.p>
               </div>
               <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder src="https://img.nickiresume.cn/images/03web3/04-1140x460CN.webp" aspect="1140/460" type="image" />
@@ -202,20 +219,23 @@ export default function Web3CaseStudyCN({ onBack }: Web3CaseStudyCNProps) {
                 <motion.h3
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-xl md:text-2xl font-bold mb-3"
           >Web3 支付基础设施流程可视化</motion.h3>
                 <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-sm md:text-base text-white/60"
           >将复杂的基础设施与资金流转关系清晰呈现</motion.p>
               </div>
               <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder src="https://img.nickiresume.cn/images/03web3/05-1140x390CN.webp" aspect="1140/390" type="image" />
@@ -229,13 +249,15 @@ export default function Web3CaseStudyCN({ onBack }: Web3CaseStudyCNProps) {
                 <motion.h3
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-xl md:text-2xl font-bold mb-3"
           >定义社区品牌体系</motion.h3>
                 <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-sm md:text-base text-white/60 max-w-2xl mx-auto"
           >
                   定义 Crydit 的核心品牌人格，塑造产品体验、视觉语言以及社区表达方式<br/>
@@ -245,7 +267,8 @@ export default function Web3CaseStudyCN({ onBack }: Web3CaseStudyCNProps) {
               <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder src="https://img.nickiresume.cn/images/03web3/06-1140x260CN.webp" type="image" />
@@ -259,13 +282,15 @@ export default function Web3CaseStudyCN({ onBack }: Web3CaseStudyCNProps) {
                 <motion.h3
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-xl md:text-2xl font-bold mb-3"
           >社区驱动的品牌表达</motion.h3>
                 <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-sm md:text-base text-white/60"
           >通过 Meme 风格角色与视觉语言，构建具有社区文化特征的品牌表达体系</motion.p>
               </div>
@@ -273,7 +298,8 @@ export default function Web3CaseStudyCN({ onBack }: Web3CaseStudyCNProps) {
                 <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder src="https://img.nickiresume.cn/videos/02-Case 1-800x450.mp4" poster="[在这里替换视频封面图链接]" aspect="753/424" type="video" />
@@ -289,13 +315,15 @@ export default function Web3CaseStudyCN({ onBack }: Web3CaseStudyCNProps) {
             <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-sm md:text-base text-white/60 mb-[10px]"
           >品牌系统</motion.p>
             <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-4xl md:text-5xl font-bold leading-tight"
 
           >构建可扩展的产品与品牌体系</motion.h2>
@@ -309,20 +337,23 @@ export default function Web3CaseStudyCN({ onBack }: Web3CaseStudyCNProps) {
                 <motion.h3
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-xl md:text-2xl font-bold mb-3"
           >制定系统化</motion.h3>
                 <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-sm md:text-base text-white/60"
           >为了支持产品线的长期扩展，Crydit 的设计系统被系统化为三个核心层级：产品界面、品牌识别以及社区表达，从而形成完整的品牌与产品设计体系。</motion.p>
               </div>
               <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder src="https://img.nickiresume.cn/videos/03VI.mp4" poster="[在这里替换视频封面图链接]" aspect="753/424" type="video" />
@@ -336,14 +367,16 @@ export default function Web3CaseStudyCN({ onBack }: Web3CaseStudyCNProps) {
                 <motion.h3
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-xl md:text-2xl font-bold mb-3"
           >构建品牌价值金字塔</motion.h3>
               </div>
               <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder src="https://img.nickiresume.cn/images/03web3/07-1140x580CN.webp" type="image" />
@@ -357,14 +390,16 @@ export default function Web3CaseStudyCN({ onBack }: Web3CaseStudyCNProps) {
                 <motion.h3
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-xl md:text-2xl font-bold mb-3"
           >规范社区内容视觉系统</motion.h3>
               </div>
               <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder src="https://img.nickiresume.cn/videos/04-Case 1-layout.mp4" poster="[在这里替换视频封面图链接]" type="video" />
@@ -372,7 +407,8 @@ export default function Web3CaseStudyCN({ onBack }: Web3CaseStudyCNProps) {
               <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-[#00FF00] text-lg md:text-xl font-bold mt-12 text-center"
           >
                 共同构成 Crydit 的品牌基础设施
@@ -387,13 +423,15 @@ export default function Web3CaseStudyCN({ onBack }: Web3CaseStudyCNProps) {
             <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-sm md:text-base text-white/60 mb-[10px]"
           >视觉落地</motion.p>
             <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-3xl md:text-4xl font-bold"
           >设计体系最终落地于多个品牌触点</motion.h2>
           </div>
@@ -406,14 +444,16 @@ export default function Web3CaseStudyCN({ onBack }: Web3CaseStudyCNProps) {
                 <motion.h3
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-xl md:text-2xl font-bold mb-0"
           >银行卡面</motion.h3>
               </div>
               <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder src="https://img.nickiresume.cn/images/03web3/08-1140x490CNN.webp" aspect="1140/490" type="image" />
@@ -427,20 +467,23 @@ export default function Web3CaseStudyCN({ onBack }: Web3CaseStudyCNProps) {
                 <motion.h3
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-xl md:text-2xl font-bold mb-3"
           >产品UX</motion.h3>
                 <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-sm md:text-base text-white/60"
           >界面设计将复杂的加密交易转化为熟悉的支付流程，使用户能够轻松管理、转换并使用数字资产。</motion.p>
               </div>
               <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder src="https://img.nickiresume.cn/videos/05-Case1-UI.mp4" poster="[在这里替换视频封面图链接]" type="video" />
@@ -454,13 +497,15 @@ export default function Web3CaseStudyCN({ onBack }: Web3CaseStudyCNProps) {
                 <motion.h3
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-xl md:text-2xl font-bold mb-3"
           >社区吉祥物</motion.h3>
                 <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-sm md:text-base text-white/60"
           >通过友好的视觉角色连接社区，并强化品牌个性表达。</motion.p>
               </div>
@@ -468,7 +513,8 @@ export default function Web3CaseStudyCN({ onBack }: Web3CaseStudyCNProps) {
                 <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder src="https://img.nickiresume.cn/images/03web3/09-1140x400CN.webp" aspect="1140/400" type="image" />
@@ -476,7 +522,8 @@ export default function Web3CaseStudyCN({ onBack }: Web3CaseStudyCNProps) {
                 <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder src="https://img.nickiresume.cn/images/03web3/10-1140x630CN.webp" aspect="1140/630" type="image" />
@@ -490,14 +537,16 @@ export default function Web3CaseStudyCN({ onBack }: Web3CaseStudyCNProps) {
                 <motion.h3
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-xl md:text-2xl font-bold mb-3"
           >情绪表达</motion.h3>
               </div>
               <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder src="https://img.nickiresume.cn/images/03web3/11-1140x750CN.webp" aspect="1140/750" type="image" />
@@ -511,20 +560,23 @@ export default function Web3CaseStudyCN({ onBack }: Web3CaseStudyCNProps) {
                 <motion.h3
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-xl md:text-2xl font-bold mb-3"
           >品牌传播视觉</motion.h3>
                 <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-sm md:text-base text-white/60"
           >将 Web3 资产与日常支付场景连接起来，打造用户能够轻松在全场景顺畅处理加密货币等大额消费</motion.p>
               </div>
               <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder src="https://img.nickiresume.cn/videos/06-Case 1-KV.mp4" poster="[在这里替换视频封面图链接]" type="video" />
@@ -538,19 +590,22 @@ export default function Web3CaseStudyCN({ onBack }: Web3CaseStudyCNProps) {
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-3xl md:text-4xl font-bold mb-[10px]"
           >落地成果</motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-sm md:text-base text-white/60 mb-[32px]"
           >在 Web3 社区文化与金融可信度之间取得平衡，建立了一个既开放又可信的支付品牌</motion.p>
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder src="https://img.nickiresume.cn/images/03web3/12-1140x560CN.webp" type="image" />

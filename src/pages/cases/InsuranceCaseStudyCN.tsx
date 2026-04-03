@@ -27,7 +27,7 @@ export default function InsuranceCaseStudyCN({ onBack }: InsuranceCaseStudyCNPro
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-center z-10 relative px-6 h-[360px]"
           >
             <h1 className="text-[48px] md:text-[56px] xl:text-[64px] font-bold leading-[76.4px] tracking-tight text-[#111111] mb-6 h-[142px]">
@@ -53,7 +53,8 @@ export default function InsuranceCaseStudyCN({ onBack }: InsuranceCaseStudyCNPro
             <motion.h2 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="relative z-10 text-[40px] md:text-[64px] font-[800] text-[#111111] leading-[1.2] tracking-tighter mt-6 md:mt-10 text-balance"
             >
               从业务增长中<span className="text-[#0055FF]">识别</span>系统性设计问题
@@ -61,7 +62,8 @@ export default function InsuranceCaseStudyCN({ onBack }: InsuranceCaseStudyCNPro
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="text-[16px] text-[#666666] max-w-[600px] mb-12 leading-[1.6]"
             >
               在平台快速增长过程中，我发现设计问题已从界面层升级为系统性问题。<br />
@@ -70,7 +72,8 @@ export default function InsuranceCaseStudyCN({ onBack }: InsuranceCaseStudyCNPro
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="text-[20px] font-bold mb-12 text-[#111111]"
             >
               将问题重新定义为：平台系统重构
@@ -80,7 +83,8 @@ export default function InsuranceCaseStudyCN({ onBack }: InsuranceCaseStudyCNPro
             <motion.div 
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="w-full max-w-[1140px] aspect-[1140/420] flex flex-col items-center justify-center text-[#999999] rounded-lg overflow-hidden relative"
             >
               {/* Actual Image */}
@@ -98,7 +102,8 @@ export default function InsuranceCaseStudyCN({ onBack }: InsuranceCaseStudyCNPro
             <motion.h2 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="relative z-10 text-[40px] md:text-[64px] font-[800] text-[#111111] leading-[1.2] tracking-tighter mt-6 md:mt-10 text-balance"
             >
               从表层问题到结构性问题
@@ -106,7 +111,8 @@ export default function InsuranceCaseStudyCN({ onBack }: InsuranceCaseStudyCNPro
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="text-[20px] font-medium mb-12 text-[#111111]"
             >
               经洞察，我将问题拆解为三个核心维度
@@ -116,7 +122,8 @@ export default function InsuranceCaseStudyCN({ onBack }: InsuranceCaseStudyCNPro
             <motion.div 
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="w-full max-w-[1140px] aspect-[1140/510] flex flex-col items-center justify-center text-[#999999] rounded-lg overflow-hidden relative"
             >
               {/* Actual Image */}
@@ -134,7 +141,8 @@ export default function InsuranceCaseStudyCN({ onBack }: InsuranceCaseStudyCNPro
             <motion.h2 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="relative z-10 text-[40px] md:text-[64px] font-[800] text-[#111111] leading-[1.2] tracking-tighter mt-6 md:mt-10 text-balance"
             >
               从局部优化到系统重构
@@ -144,7 +152,8 @@ export default function InsuranceCaseStudyCN({ onBack }: InsuranceCaseStudyCNPro
             <motion.div 
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="w-full max-w-[1140px] aspect-[1140/450] flex flex-col items-center justify-center text-[#999999] rounded-lg overflow-hidden relative"
             >
               {/* Actual Image */}
@@ -162,7 +171,8 @@ export default function InsuranceCaseStudyCN({ onBack }: InsuranceCaseStudyCNPro
             <motion.h2 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="relative z-10 text-[40px] md:text-[64px] font-[800] text-[#111111] leading-[1.2] tracking-tighter mt-6 md:mt-10 text-balance"
             >
               从功能架构到认知驱动的系统重构
@@ -170,7 +180,8 @@ export default function InsuranceCaseStudyCN({ onBack }: InsuranceCaseStudyCNPro
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="max-w-[800px] mb-16"
             >
               <p className="text-[20px] font-bold mb-4 text-[#111111]">
@@ -185,7 +196,8 @@ export default function InsuranceCaseStudyCN({ onBack }: InsuranceCaseStudyCNPro
             <motion.div 
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="w-full max-w-[1140px] aspect-[1140/660] flex flex-col items-center justify-center text-[#999999] rounded-lg overflow-hidden relative"
             >
               {/* Actual Image */}
@@ -203,7 +215,8 @@ export default function InsuranceCaseStudyCN({ onBack }: InsuranceCaseStudyCNPro
             <motion.h2 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="relative z-10 text-[40px] md:text-[64px] font-[800] text-[#111111] leading-[1.2] tracking-tighter mt-6 md:mt-10 text-balance"
             >
               将设计从输出变为资产
@@ -211,7 +224,8 @@ export default function InsuranceCaseStudyCN({ onBack }: InsuranceCaseStudyCNPro
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="text-[20px] font-medium mb-16 text-center text-[#111111]"
             >
               在系统模型基础上，我建立企业级 Design System
@@ -222,7 +236,8 @@ export default function InsuranceCaseStudyCN({ onBack }: InsuranceCaseStudyCNPro
                 <motion.ul 
                   initial={{ opacity: 0, x: -20 }}
                   whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
+                  viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
                   className="space-y-2 text-[16px] font-medium list-disc pl-5 text-[#111111]"
                 >
                   <li>视觉语言系统</li>
@@ -233,7 +248,8 @@ export default function InsuranceCaseStudyCN({ onBack }: InsuranceCaseStudyCNPro
                 <motion.div 
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
+                  viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
                   className="text-[16px] font-medium text-[#111111]"
                 >
                   让设计具备<span className="text-[#0055FF]">复用</span><br />
@@ -245,7 +261,8 @@ export default function InsuranceCaseStudyCN({ onBack }: InsuranceCaseStudyCNPro
               <motion.div 
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
                 className="flex-1 w-full aspect-[848/480] flex flex-col items-center justify-center text-[#999999] rounded-lg overflow-hidden relative"
               >
                 <span className="text-[32px] font-medium mb-4">848x480</span>
@@ -275,7 +292,8 @@ export default function InsuranceCaseStudyCN({ onBack }: InsuranceCaseStudyCNPro
             <motion.h2 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="relative z-10 text-[40px] md:text-[64px] font-[800] text-[#111111] leading-[1.2] tracking-tighter mt-6 md:mt-10 text-balance"
             >
               构建规模化设计生产能力
@@ -283,7 +301,8 @@ export default function InsuranceCaseStudyCN({ onBack }: InsuranceCaseStudyCNPro
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="text-[20px] font-medium mb-16 text-center text-[#111111]"
             >
               我进一步将设计系统应用于内容生产，建立设计运营体系
@@ -294,7 +313,8 @@ export default function InsuranceCaseStudyCN({ onBack }: InsuranceCaseStudyCNPro
                 <motion.ul 
                   initial={{ opacity: 0, x: -20 }}
                   whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
+                  viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
                   className="space-y-2 text-[16px] font-medium list-disc pl-5 text-[#111111]"
                 >
                   <li>模板化设计</li>
@@ -304,7 +324,8 @@ export default function InsuranceCaseStudyCN({ onBack }: InsuranceCaseStudyCNPro
                 <motion.div 
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
+                  viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
                   className="text-[16px] font-medium text-[#111111]"
                 >
                   <span className="font-bold">模板化设计</span><br />
@@ -317,7 +338,8 @@ export default function InsuranceCaseStudyCN({ onBack }: InsuranceCaseStudyCNPro
               <motion.div 
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
                 className="flex-1 w-full aspect-[848/480] flex flex-col items-center justify-center text-[#999999] rounded-lg overflow-hidden relative"
               >
                 <span className="text-[32px] font-medium mb-4">848x480</span>
@@ -347,7 +369,8 @@ export default function InsuranceCaseStudyCN({ onBack }: InsuranceCaseStudyCNPro
             <motion.h2 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="relative z-10 text-[40px] md:text-[64px] font-[800] text-[#111111] leading-[1.2] tracking-tighter mt-6 md:mt-10 text-balance"
             >
               系统化设计带来的业务价值
@@ -355,7 +378,8 @@ export default function InsuranceCaseStudyCN({ onBack }: InsuranceCaseStudyCNPro
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="text-[14px] text-[#666666] max-w-[600px] mb-8 leading-[1.6]"
             >
               通过系统重构，设计从执行层走向业务驱动能力。<br />
@@ -364,7 +388,8 @@ export default function InsuranceCaseStudyCN({ onBack }: InsuranceCaseStudyCNPro
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="text-[20px] font-medium mb-16 text-[#111111]"
             >
               从结构优化到业务价值的量化体现
@@ -374,7 +399,8 @@ export default function InsuranceCaseStudyCN({ onBack }: InsuranceCaseStudyCNPro
             <motion.div 
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="w-full max-w-[1140px] aspect-[1140/630] flex flex-col items-center justify-center text-[#999999] rounded-lg overflow-hidden relative mb-12"
             >
               {/* Actual Image */}
@@ -384,7 +410,8 @@ export default function InsuranceCaseStudyCN({ onBack }: InsuranceCaseStudyCNPro
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="text-[18px] font-medium text-[#111111]"
             >
               系统化设计不仅<span className="font-bold">提升体验质量</span>，更驱动可量化的<span className="font-bold">业务结果</span>与<span className="font-bold">规模化增长</span>。
@@ -401,7 +428,8 @@ export default function InsuranceCaseStudyCN({ onBack }: InsuranceCaseStudyCNPro
             <motion.h2 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="relative z-10 text-[40px] md:text-[64px] font-[800] text-[#111111] leading-[1.2] tracking-tighter mt-6 md:mt-10 text-balance"
             >
               系统设计的通用方法
@@ -411,7 +439,8 @@ export default function InsuranceCaseStudyCN({ onBack }: InsuranceCaseStudyCNPro
             <motion.div 
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="w-full max-w-[1140px] aspect-[1140/380] flex flex-col items-center justify-center text-[#999999] rounded-lg overflow-hidden relative"
             >
               {/* Actual Image */}

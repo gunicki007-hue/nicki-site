@@ -36,8 +36,8 @@ export default function Navigation({ activeItem = 'Profile', language = 'EN', th
           ? (isDark ? 'bg-[#050505] border-white/10' : 'bg-[#F5F5F5]/80 backdrop-blur-md border-black/5')
           : (isDark ? 'bg-[#050505] border-white/10' : 'bg-[#F5F5F5] border-black/5')
       } border-b`}>
-        <div className="nav-inner relative flex items-center justify-between w-full max-w-[1440px] mx-auto px-6 md:px-[180px] py-6">
-          <div className={`logo font-['Inter'] font-bold tracking-[0.05em] uppercase text-[16px] z-10 ${isDark ? 'text-white' : 'text-[#111111]'}`}>
+        <div className="nav-inner flex items-center justify-between w-full max-w-[1440px] mx-auto px-6 md:px-[180px] py-6">
+          <div className={`logo font-['Inter'] font-bold tracking-[0.05em] uppercase text-[16px] flex-shrink-0 ${isDark ? 'text-white' : 'text-[#111111]'}`}>
             {showBack ? (
               <button onClick={onBackClick} className="flex items-center gap-2 hover:opacity-70 transition-opacity cursor-pointer normal-case text-[14px] font-medium tracking-normal">
                 <ArrowLeft size={18} /> {language === 'CN' ? '返回案例' : 'Back to Cases'}
@@ -47,11 +47,11 @@ export default function Navigation({ activeItem = 'Profile', language = 'EN', th
             )}
           </div>
           
-          <nav className="nav-links absolute left-1/2 -translate-x-1/2 flex items-center gap-[48px]">
+          <nav className="nav-links flex-1 flex items-center justify-center [&>.nav-item+.nav-item]:ml-[48px] px-8">
             {navItems.map((item) => (
               <motion.button
                 key={item.name}
-                className={`nav-item font-['Inter'] relative text-[15px] tracking-tight pb-0.5 transition-all duration-200 ${
+                className={`nav-item whitespace-nowrap font-['Inter'] relative text-[15px] tracking-tight pb-0.5 transition-all duration-200 ${
                   item.active 
                     ? (isDark ? 'text-white font-medium' : 'text-[#111111] font-medium') 
                     : (isDark ? 'text-white/60 hover:text-white' : 'text-[#111111] font-normal hover:opacity-60')
@@ -70,7 +70,7 @@ export default function Navigation({ activeItem = 'Profile', language = 'EN', th
             ))}
           </nav>
 
-          <div className="nav-actions flex items-center gap-10 z-10">
+          <div className="nav-actions flex items-center gap-10 flex-shrink-0">
             <div className="lang flex items-center gap-4 text-[14px] font-['Inter']">
               <span 
                 className={`cursor-pointer transition-opacity ${

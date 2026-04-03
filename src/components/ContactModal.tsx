@@ -10,6 +10,9 @@ interface ContactModalProps {
 export default function ContactModal({ isOpen, onClose, language }: ContactModalProps) {
   const isCN = language === 'CN';
 
+  // 👇 请在这里填入您的二维码图片的外链地址 (例如: "https://xxx.cos.ap-xxx.myqcloud.com/qr.png")
+  const QR_CODE_URL = "https://img.nickiresume.cn/images/01profile/QRcode.webp"; 
+
   return (
     <AnimatePresence>
       {isOpen && (
@@ -60,11 +63,15 @@ export default function ContactModal({ isOpen, onClose, language }: ContactModal
 
               <div className="pt-8 border-t border-black/5">
                 <div className="flex items-center gap-4">
-                  <div className="w-16 h-16 bg-zinc-100 rounded-lg flex items-center justify-center">
-                    <span className="text-[10px] text-black/20 font-bold uppercase">QR</span>
+                  <div className="w-16 h-16 bg-zinc-100 rounded-lg overflow-hidden flex-shrink-0 flex items-center justify-center">
+                    {QR_CODE_URL ? (
+                      <img src={QR_CODE_URL} alt="WeChat QR Code" className="w-full h-full object-cover" />
+                    ) : (
+                      <span className="text-[10px] text-black/20 font-bold uppercase">QR</span>
+                    )}
                   </div>
                   <p className="text-[13px] text-black/40 leading-relaxed">
-                    {isCN ? "扫描二维码添加微信，获取更多案例细节。" : "Scan QR code to add WeChat for more case details."}
+                    {isCN ? "扫码添加微信，期待与您沟通" : "Scan the QR code to connect with me on WeChat."}
                   </p>
                 </div>
               </div>

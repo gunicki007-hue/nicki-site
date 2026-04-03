@@ -27,7 +27,7 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="text-center z-10 relative px-6 h-[340px]"
           >
             <h1 className="text-[48px] md:text-[56px] xl:text-[64px] font-bold leading-[1.1] tracking-tight text-[#111111] mb-6 h-[130.8px]">
@@ -53,7 +53,8 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
             <motion.h3 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="relative z-10 text-[40px] md:text-[64px] font-[800] text-[#111111] leading-[1.2] tracking-tighter mt-6 md:mt-10 text-balance text-center"
             >
               <span className="text-[#0055FF]">Identifying</span>
@@ -62,7 +63,8 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="text-[14px] text-[#666666] leading-[1.6] max-w-[1140px] text-pretty mb-8"
             >
               As the platform scaled, design challenges evolved from UI issues into system-level problems.
@@ -71,7 +73,8 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="text-[20px] md:text-[26px] font-medium text-[#111111] leading-[1.6] max-w-[1140px] text-pretty mb-12"
             >
               Reframing The Problem As <strong>Platform System Re-Architecture</strong>
@@ -80,7 +83,8 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
             <motion.div 
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="w-full aspect-[1140/420] relative flex items-center justify-center overflow-hidden rounded-lg"
             >
               {/* Actual Image */}
@@ -102,7 +106,8 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
             <motion.h3 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="relative z-10 text-[40px] md:text-[64px] font-[800] text-[#111111] leading-[1.2] tracking-tighter mt-6 md:mt-10 text-balance text-center"
             >
               From Surface Issues To Structural
@@ -111,7 +116,8 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="text-[20px] md:text-[26px] font-medium text-[#111111] leading-[1.6] max-w-[1140px] text-pretty mb-12 text-center w-full"
             >
               I Reframed The Challenges Into Three Dimensions
@@ -120,7 +126,8 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
             <motion.div 
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="w-full aspect-[1140/510] relative flex items-center justify-center overflow-hidden rounded-lg"
             >
               {/* Actual Image */}
@@ -142,7 +149,8 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
             <motion.h3 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="relative z-10 text-[40px] md:text-[64px] font-[800] text-[#111111] leading-[1.2] tracking-tighter mt-6 md:mt-10 text-balance text-center"
             >
               From Optimization To System Redesign
@@ -151,7 +159,8 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
             <motion.div 
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="w-full aspect-[1140/450] relative flex items-center justify-center overflow-hidden rounded-lg"
             >
               {/* Actual Image */}
@@ -173,7 +182,8 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
             <motion.h3 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="relative z-10 text-[40px] md:text-[64px] font-[800] text-[#111111] leading-[1.2] tracking-tighter mt-6 md:mt-10 text-balance text-center"
             >
               From Feature-Based To Mental Model-
@@ -183,7 +193,8 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="mb-12"
             >
               <p className="text-[20px] md:text-[26px] text-[#111111] font-bold leading-[1.6] max-w-[1140px] text-pretty mb-4">
@@ -198,7 +209,8 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
             <motion.div 
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="w-full aspect-[1140/660] relative flex items-center justify-center overflow-hidden rounded-lg"
             >
               {/* Actual Image */}
@@ -220,7 +232,8 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
             <motion.h3 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="relative z-10 text-[40px] md:text-[64px] font-[800] text-[#111111] leading-[1.2] tracking-tighter mt-6 md:mt-10 text-balance text-center"
             >
               Turning Design Into Reusable Assets
@@ -228,7 +241,8 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="text-[20px] md:text-[26px] font-medium text-[#111111] leading-[1.6] max-w-[1140px] text-pretty mb-16"
             >
               On Top Of The System Model, I Built An Enterprise Design System
@@ -239,7 +253,8 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
                 <motion.ul 
                   initial={{ opacity: 0, x: -20 }}
                   whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
+                  viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
                   className="list-disc pl-5 text-[16px] text-[#666666] leading-[2] mb-12"
                 >
                   <li>Visual Language</li>
@@ -251,7 +266,8 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
                 <motion.p 
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
+                  viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
                   className="text-[20px] md:text-[26px] text-[#111111] font-bold leading-[1.4] max-w-[1140px] text-pretty"
                 >
                   Transforming
@@ -264,7 +280,8 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
                 <motion.div 
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
+                  viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
                   className="w-full aspect-[848/480] relative flex items-center justify-center overflow-hidden rounded-lg"
                 >
                   {/* Placeholder Text */}
@@ -297,7 +314,8 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
             <motion.h3 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="relative z-10 text-[40px] md:text-[64px] font-[800] text-[#111111] leading-[1.2] tracking-tighter mt-6 md:mt-10 text-balance text-center"
             >
               Scaling Design Production
@@ -305,7 +323,8 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="text-[20px] md:text-[26px] font-medium text-[#111111] leading-[1.6] max-w-[1140px] text-pretty mb-16"
             >
               On Top Of The System Model, I Built An Enterprise Design System
@@ -316,7 +335,8 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
                 <motion.ul 
                   initial={{ opacity: 0, x: -20 }}
                   whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
+                  viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
                   className="list-disc pl-5 text-[16px] text-[#666666] leading-[2] mb-12"
                 >
                   <li>Template-Based Design</li>
@@ -327,7 +347,8 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
                 <motion.p 
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
+                  viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
                   className="text-[20px] md:text-[26px] text-[#111111] font-bold leading-[1.4] max-w-[1140px] text-pretty"
                 >
                   Moving From
@@ -341,7 +362,8 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
                 <motion.div 
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
+                  viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
                   className="w-full aspect-[848/480] relative flex items-center justify-center overflow-hidden rounded-lg"
                 >
                   {/* Placeholder Text */}
@@ -374,7 +396,8 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
             <motion.h3 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="relative z-10 text-[40px] md:text-[64px] font-[800] text-[#111111] leading-[1.2] tracking-tighter mt-6 md:mt-10 text-balance text-center"
             >
               Business Impact Of Systematic Design
@@ -382,7 +405,8 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="text-[12px] md:text-[14px] text-[#666666] leading-[1.6] max-w-[1140px] text-pretty mb-8"
             >
               Through System Re-Architecture, Design Evolved From Execution To A Business-Driven Capability.
@@ -391,7 +415,8 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="text-[20px] md:text-[26px] font-medium text-[#111111] leading-[1.6] max-w-[1140px] text-pretty mb-12"
             >
               From Structural Optimization To Measurable Business Impact
@@ -400,7 +425,8 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
             <motion.div 
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="w-full aspect-[1140/630] relative flex items-center justify-center overflow-hidden mb-12 rounded-lg"
             >
               {/* Actual Image */}
@@ -414,7 +440,8 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
             <motion.p 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="text-[20px] md:text-[26px] font-medium text-[#111111] leading-[1.6] max-w-[1140px] text-pretty"
             >
               Systematic Design Not Only Improves <strong>Experience Quality</strong>
@@ -432,7 +459,8 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
             <motion.h3 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="relative z-10 text-[40px] md:text-[64px] font-[800] text-[#111111] leading-[1.2] tracking-tighter mt-6 md:mt-10 text-balance text-center"
             >
               A Scalable Approach To System Design
@@ -441,7 +469,8 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
             <motion.div 
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="w-full aspect-[1140/400] relative flex items-center justify-center overflow-hidden rounded-lg"
             >
               {/* Actual Image */}

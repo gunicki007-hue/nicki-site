@@ -32,7 +32,7 @@ export default function BrandOpsCaseStudyCN({ onBack }: BrandOpsCaseStudyCNProps
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
+              transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="text-[40px] md:text-[56px] xl:text-[64px] font-black leading-[1.1] tracking-tight text-balance"
             >
               AI赋能<br/>设计运营体系
@@ -43,18 +43,20 @@ export default function BrandOpsCaseStudyCN({ onBack }: BrandOpsCaseStudyCNProps
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.1 }}
+              transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.1 }}
               className="space-y-1 text-[14px] text-gray-500 mt-4 leading-relaxed"
             >
               <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           >企业级实践 · 9个月</motion.p>
               <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           >设计负责人 · AI设计 x 设计运营 x 团队管理</motion.p>
             </motion.div>
             <motion.div
@@ -66,7 +68,8 @@ export default function BrandOpsCaseStudyCN({ onBack }: BrandOpsCaseStudyCNProps
               <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           >带领视觉团队构建设计生产系统，实现规模化、降本增效与业务增长</motion.p>
             </motion.div>
           </div>
@@ -79,7 +82,8 @@ export default function BrandOpsCaseStudyCN({ onBack }: BrandOpsCaseStudyCNProps
             <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
               <Placeholder src="https://img.nickiresume.cn/videos/657x370 banner.mp4" aspect="657/370" type="video" />
@@ -96,7 +100,8 @@ export default function BrandOpsCaseStudyCN({ onBack }: BrandOpsCaseStudyCNProps
             <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="relative z-10 text-[40px] md:text-[64px] font-[800] text-[#111111] leading-[1.2] tracking-tighter mt-6 md:mt-10 text-balance"
           >
               如何在维持现有人力下<br/>
@@ -106,7 +111,8 @@ export default function BrandOpsCaseStudyCN({ onBack }: BrandOpsCaseStudyCNProps
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder text="Case 3-1140x450-B-CN-Png" aspect="1140/450" type="image" src="https://img.nickiresume.cn/images/05promption/01CN.webp" />
@@ -122,7 +128,8 @@ export default function BrandOpsCaseStudyCN({ onBack }: BrandOpsCaseStudyCNProps
             <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="relative z-10 text-[40px] md:text-[64px] font-[800] text-[#111111] leading-[1.2] tracking-tighter mt-6 md:mt-10 text-balance"
           >
               将设计从“执行”升级为“AI驱动生产系统”
@@ -131,7 +138,8 @@ export default function BrandOpsCaseStudyCN({ onBack }: BrandOpsCaseStudyCNProps
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder text="Case 3-1140x560-C-CN-Png" aspect="1140/560" type="image" src="https://img.nickiresume.cn/images/05promption/02CN.webp" />
@@ -147,7 +155,8 @@ export default function BrandOpsCaseStudyCN({ onBack }: BrandOpsCaseStudyCNProps
             <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="relative z-10 text-[40px] md:text-[64px] font-[800] text-[#111111] leading-[1.2] tracking-tighter mt-6 md:mt-10 text-balance"
           >
               从工具使用到搭建团队AI设计能力
@@ -156,7 +165,8 @@ export default function BrandOpsCaseStudyCN({ onBack }: BrandOpsCaseStudyCNProps
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder text="Case 3-1140x1360-D-CN-Png" aspect="1140/1360" type="image" src="https://img.nickiresume.cn/images/05promption/03CN.webp" />
@@ -172,7 +182,8 @@ export default function BrandOpsCaseStudyCN({ onBack }: BrandOpsCaseStudyCNProps
             <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="relative z-10 text-[40px] md:text-[64px] font-[800] text-[#111111] leading-[1.2] tracking-tighter mt-6 md:mt-10 text-balance"
           >
               AI产品化与跨部门协同
@@ -180,7 +191,8 @@ export default function BrandOpsCaseStudyCN({ onBack }: BrandOpsCaseStudyCNProps
             <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="relative z-10 text-[16px] text-gray-600 mt-4"
           >
               设计 × 产品 × 技术 × 运营协同
@@ -189,7 +201,8 @@ export default function BrandOpsCaseStudyCN({ onBack }: BrandOpsCaseStudyCNProps
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder text="Case 3-1140x780-E-CN-Png" aspect="1140/780" type="image" src="https://img.nickiresume.cn/images/05promption/04CN.webp" />
@@ -205,7 +218,8 @@ export default function BrandOpsCaseStudyCN({ onBack }: BrandOpsCaseStudyCNProps
             <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="relative z-10 text-[40px] md:text-[64px] font-[800] text-[#111111] leading-[1.2] tracking-tighter mt-6 md:mt-10 text-balance"
           >
               设计运营与资源优化
@@ -214,7 +228,8 @@ export default function BrandOpsCaseStudyCN({ onBack }: BrandOpsCaseStudyCNProps
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder text="Case 3-1140x800-F-CN-Png" aspect="1140/800" type="image" src="https://img.nickiresume.cn/images/05promption/05CN.webp" />
@@ -230,7 +245,8 @@ export default function BrandOpsCaseStudyCN({ onBack }: BrandOpsCaseStudyCNProps
             <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="relative z-10 text-[40px] md:text-[64px] font-[800] text-[#111111] leading-[1.2] tracking-tighter mt-6 md:mt-10 text-balance"
           >
               释放资源，打造高价值产品
@@ -239,7 +255,8 @@ export default function BrandOpsCaseStudyCN({ onBack }: BrandOpsCaseStudyCNProps
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder text="Case 3-1140x800-G-CN-Png" aspect="1140/800" type="image" src="https://img.nickiresume.cn/images/05promption/06CN.webp" />
@@ -255,7 +272,8 @@ export default function BrandOpsCaseStudyCN({ onBack }: BrandOpsCaseStudyCNProps
             <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="relative z-10 text-[40px] md:text-[64px] font-[800] text-[#111111] leading-[1.2] tracking-tighter mt-6 md:mt-10 text-balance"
           >
               规模化设计与降本增效
@@ -264,7 +282,8 @@ export default function BrandOpsCaseStudyCN({ onBack }: BrandOpsCaseStudyCNProps
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder text="Case 3-1140x350-H-CN-Png" aspect="1140/390" type="image" src="https://img.nickiresume.cn/images/05promption/07CN.webp" />

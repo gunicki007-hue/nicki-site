@@ -59,9 +59,9 @@ export default function Profile({ language }: ProfileProps) {
       <div className="w-full max-w-[1440px] mx-auto h-full relative z-10 flex items-end justify-center pt-6 px-6 pb-0 md:px-[60px] md:pb-0">
         <motion.div 
           className="w-full max-w-[1254px]"
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: [0.23, 1, 0.32, 1] }}
+          initial={{ opacity: 0, y: 40, scale: 0.95 }}
+          animate={{ opacity: 1, y: 0, scale: 1 }}
+          transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
         >
           <img 
             src={isCN ? "https://img.nickiresume.cn/images/01profile/profileCNN.webp" : "https://img.nickiresume.cn/images/01profile/profileENN.webp"} 

@@ -32,7 +32,7 @@ export default function BrandOpsCaseStudyEN({ onBack }: BrandOpsCaseStudyENProps
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
+              transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="text-[40px] md:text-[56px] xl:text-[64px] font-black leading-[1.1] tracking-tight text-balance"
             >
               Building AI-Driven Design Operations from 0→1
@@ -40,18 +40,20 @@ export default function BrandOpsCaseStudyEN({ onBack }: BrandOpsCaseStudyENProps
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.1 }}
+              transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.1 }}
               className="space-y-1 text-[14px] text-gray-500 mt-4 leading-relaxed"
             >
               <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           >Enterprise Project · 9 Months</motion.p>
               <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           >Design Lead · AI Design × Design Ops × Leadership</motion.p>
             </motion.div>
             <motion.div
@@ -63,7 +65,8 @@ export default function BrandOpsCaseStudyEN({ onBack }: BrandOpsCaseStudyENProps
               <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           >Leading a Team to Build Scalable Design Production</motion.p>
             </motion.div>
           </div>
@@ -76,7 +79,8 @@ export default function BrandOpsCaseStudyEN({ onBack }: BrandOpsCaseStudyENProps
             <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
               <Placeholder src="https://img.nickiresume.cn/videos/657x370 banner.mp4" aspect="657/370" type="video" />
@@ -93,7 +97,8 @@ export default function BrandOpsCaseStudyEN({ onBack }: BrandOpsCaseStudyENProps
             <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="relative z-10 text-[40px] md:text-[64px] font-[800] text-[#111111] leading-[1.2] tracking-tighter mt-6 md:mt-10 text-balance text-center"
           >
               How To Scaling Output Without Increasing Headcount
@@ -102,7 +107,8 @@ export default function BrandOpsCaseStudyEN({ onBack }: BrandOpsCaseStudyENProps
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder text="Case 3-1140x450-B-EN-Png" aspect="1140/450" type="image" src="https://img.nickiresume.cn/images/05promption/01EN.webp" />
@@ -118,7 +124,8 @@ export default function BrandOpsCaseStudyEN({ onBack }: BrandOpsCaseStudyENProps
             <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="relative z-10 text-[40px] md:text-[64px] font-[800] text-[#111111] leading-[1.2] tracking-tighter mt-6 md:mt-10 text-balance text-center"
           >
               Transforming Design From “Execution” To An “AI-Driven Production System”
@@ -127,7 +134,8 @@ export default function BrandOpsCaseStudyEN({ onBack }: BrandOpsCaseStudyENProps
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder text="Case 3-1140x560-C-EN-Png" aspect="1140/560" type="image" src="https://img.nickiresume.cn/images/05promption/02EN.webp" />
@@ -143,7 +151,8 @@ export default function BrandOpsCaseStudyEN({ onBack }: BrandOpsCaseStudyENProps
             <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="relative z-10 text-[40px] md:text-[64px] font-[800] text-[#111111] leading-[1.2] tracking-tighter mt-6 md:mt-10 text-balance text-center"
           >
               From Tool Usage To Building Team AI Design Capabilities
@@ -152,7 +161,8 @@ export default function BrandOpsCaseStudyEN({ onBack }: BrandOpsCaseStudyENProps
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder text="Case 3-1140x1360-D-EN-Png" aspect="1140/1360" type="image" src="https://img.nickiresume.cn/images/05promption/03EN.webp" />
@@ -168,7 +178,8 @@ export default function BrandOpsCaseStudyEN({ onBack }: BrandOpsCaseStudyENProps
             <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="relative z-10 text-[40px] md:text-[64px] font-[800] text-[#111111] leading-[1.2] tracking-tighter mt-6 md:mt-10 text-balance text-center"
           >
               AI Product & Collaboration
@@ -176,7 +187,8 @@ export default function BrandOpsCaseStudyEN({ onBack }: BrandOpsCaseStudyENProps
             <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="relative z-10 text-[16px] text-gray-600 mt-4 max-w-[1140px] text-pretty"
           >
               Cross-Functional Integration
@@ -185,7 +197,8 @@ export default function BrandOpsCaseStudyEN({ onBack }: BrandOpsCaseStudyENProps
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder text="Case 3-1140x780-E-EN-Png" aspect="1140/780" type="image" src="https://img.nickiresume.cn/images/05promption/04EN.webp" />
@@ -201,7 +214,8 @@ export default function BrandOpsCaseStudyEN({ onBack }: BrandOpsCaseStudyENProps
             <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="relative z-10 text-[40px] md:text-[64px] font-[800] text-[#111111] leading-[1.2] tracking-tighter mt-6 md:mt-10 text-balance text-center"
           >
               Design Ops & Resource System
@@ -210,7 +224,8 @@ export default function BrandOpsCaseStudyEN({ onBack }: BrandOpsCaseStudyENProps
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder text="Case 3-1140x800-F-EN-Png" aspect="1140/800" type="image" src="https://img.nickiresume.cn/images/05promption/05EN.webp" />
@@ -226,7 +241,8 @@ export default function BrandOpsCaseStudyEN({ onBack }: BrandOpsCaseStudyENProps
             <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="relative z-10 text-[40px] md:text-[64px] font-[800] text-[#111111] leading-[1.2] tracking-tighter mt-6 md:mt-10 text-balance text-center"
           >
               Freeing Up Resources To Build High-Value Products
@@ -235,7 +251,8 @@ export default function BrandOpsCaseStudyEN({ onBack }: BrandOpsCaseStudyENProps
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder text="Case 3-1140x800-G-EN-Png" aspect="1140/800" type="image" src="https://img.nickiresume.cn/images/05promption/06EN.webp" />
@@ -251,7 +268,8 @@ export default function BrandOpsCaseStudyEN({ onBack }: BrandOpsCaseStudyENProps
             <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="relative z-10 text-[40px] md:text-[64px] font-[800] text-[#111111] leading-[1.2] tracking-tighter mt-6 md:mt-10 text-balance text-center"
           >
               Scalable Design & Efficiency Gains
@@ -260,7 +278,8 @@ export default function BrandOpsCaseStudyEN({ onBack }: BrandOpsCaseStudyENProps
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="w-full"
           >
             <Placeholder text="Case 3-1140x350-H-EN-Png" aspect="1140/390" type="image" src="https://img.nickiresume.cn/images/05promption/07EN.webp" />

@@ -113,12 +113,15 @@ export default function Strategy({ language, onCaseClick }: StrategyProps) {
           {caseStudies.map((cs, idx) => (
             <motion.div
               key={cs.id}
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-50px" }}
               className={`flex flex-col md:flex-row items-center gap-[32px] md:gap-[48px] py-[40px] md:py-[48px] cursor-pointer group ${cs.imageLeft ? 'md:flex-row' : 'md:flex-row-reverse'}`}
               style={{
                 borderBottom: idx < caseStudies.length - 1 ? "1px solid #E8E8E8" : "none",
               }}
               whileHover={{ x: cs.imageLeft ? 4 : -4 }}
-              transition={{ duration: 0.35, ease: [0.25, 0.1, 0.25, 1] }}
+              transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1], delay: idx * 0.1 }}
               onClick={() => onCaseClick(cs.project)}
             >
               {/* 
