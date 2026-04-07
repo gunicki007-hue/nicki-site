@@ -91,8 +91,8 @@ export default function MobileHome({ language, onCaseClick }: MobileHomeProps) {
       </div>
 
       {/* Slice 6: Footer */}
-      <div className="relative w-full bg-[#111111] pb-[env(safe-area-inset-bottom)]">
-        <img src={images.slice6} alt="Footer" className="w-full block" />
+      <div className="relative w-full bg-[#111111] pb-[50vh] -mb-[50vh]">
+        <img src={images.slice6} alt="Footer" className="w-full block relative z-10" />
       </div>
     </div>
   );
