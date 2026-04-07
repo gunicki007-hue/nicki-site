@@ -8,6 +8,8 @@ import Profile from './Profile';
 import Strategy from './Strategy';
 import CaseDetail from './CaseDetail';
 import DesignSystem from './DesignSystem';
+import MobileHome from './mobile/MobileHome';
+import MobileCaseDetail from './mobile/MobileCaseDetail';
 
 export default function Home() {
   const [language, setLanguage] = useState<'EN' | 'CN'>('EN');
@@ -40,6 +42,17 @@ export default function Home() {
     }
   };
 
+  const renderMobileContent = () => {
+    if (currentPage.startsWith('case-')) {
+      const slug = currentPage.replace('case-', '');
+      return <MobileCaseDetail slug={slug} language={language} />;
+    }
+    return <MobileHome language={language} onCaseClick={(slug) => {
+      setCurrentPage(`case-${slug}`);
+      window.scrollTo(0, 0);
+    }} />;
+  };
+
   const isDarkTheme = currentPage.startsWith('case-') || currentPage === 'case-web3';
 
   return (
@@ -58,25 +71,32 @@ export default function Home() {
         onContactClick={() => setIsContactOpen(true)}
       />
       
-      <main className={`flex-grow ${isDarkTheme ? '' : 'pt-[55px] md:pt-[91px]'}`}>
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={currentPage}
-            initial={{ opacity: 0, y: 15 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -15 }}
-            transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-          >
-            {renderContent()}
-          </motion.div>
-        </AnimatePresence>
-      </main>
+      <main className="flex-grow flex flex-col">
+        {/* PC View */}
+        <div className={`hidden md:flex flex-col flex-grow ${isDarkTheme ? '' : 'pt-[91px]'}`}>
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={currentPage}
+              initial={{ opacity: 0, y: 15 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -15 }}
+              transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+            >
+              {renderContent()}
+            </motion.div>
+          </AnimatePresence>
+          {currentPage === 'Profile' ? (
+            <HomeFooter language={language} />
+          ) : (
+            <Footer language={language} />
+          )}
+        </div>
 
-      {currentPage === 'Profile' ? (
-        <HomeFooter language={language} />
-      ) : (
-        <Footer language={language} />
-      )}
+        {/* Mobile View */}
+        <div className="flex md:hidden flex-col flex-grow pt-[54px]">
+          {renderMobileContent()}
+        </div>
+      </main>
       
       <ContactModal 
         isOpen={isContactOpen} 

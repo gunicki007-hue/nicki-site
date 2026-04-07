@@ -431,7 +431,7 @@ export default function InsuranceCaseStudyEN({ onBack }: InsuranceCaseStudyENPro
             >
               {/* Actual Image */}
               <img 
-                src="https://img.nickiresume.cn/images/04insurance/05EN.webp" 
+                src="https://img.nickiresume.cn/images/04insurance/05ENN.webp" 
                 alt="Business Impact" 
                 className="w-full h-full object-cover relative z-10"
               />

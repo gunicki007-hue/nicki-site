@@ -30,6 +30,45 @@ export default function Navigation({ activeItem = 'Profile', language = 'EN', th
 
   return (
     <header className="w-full fixed top-0 left-0 right-0 z-50">
+      {/* Mobile Layout */}
+      <div className="block md:hidden w-full bg-black text-white border-b border-white/10">
+        <div className="flex items-center justify-between w-full px-5 py-4">
+          <div className="logo font-['Inter'] font-bold tracking-[0.05em] uppercase text-[13px]">
+            {showBack ? (
+              <button onClick={onBackClick} className="flex items-center gap-1 hover:opacity-70 transition-opacity cursor-pointer normal-case text-[13px] font-medium tracking-normal">
+                <ArrowLeft size={16} /> {language === 'CN' ? 'Back' : 'Back'}
+              </button>
+            ) : (
+              "NICKI RESUME"
+            )}
+          </div>
+          
+          <div className="flex items-center gap-5">
+            <div className="lang flex items-center gap-2 text-[13px] font-['Inter']">
+              <span 
+                className={`cursor-pointer transition-opacity ${language === 'EN' ? 'font-bold text-white' : 'text-white/40'}`} 
+                onClick={() => onLanguageChange?.('EN')}
+              >
+                EN
+              </span>
+              <span className="text-white/20">/</span>
+              <span 
+                className={`cursor-pointer transition-opacity ${language === 'CN' ? 'font-bold text-white' : 'text-white/40'}`} 
+                onClick={() => onLanguageChange?.('CN')}
+              >
+                CN
+              </span>
+            </div>
+            <button 
+              className="bg-white text-black px-4 py-1.5 text-[11px] font-bold tracking-wider rounded-full transition-all active:scale-95 uppercase"
+              onClick={onContactClick}
+            >
+              Contact
+            </button>
+          </div>
+        </div>
+      </div>
+
       {/* Desktop Layout */}
       <div className={`hidden md:block w-full ${
         showBack 
