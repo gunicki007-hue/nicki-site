@@ -71,7 +71,7 @@ export default function MobileCaseDetail({ slug, language }: MobileCaseDetailPro
   const images = MOBILE_CASE_IMAGES[slug]?.[language] || [];
 
   return (
-    <div className="w-full flex flex-col bg-[#050505]">
+    <div className="w-full flex flex-col bg-[#050505] pb-[env(safe-area-inset-bottom)]">
       {images.map((src, idx) => (
         <img key={idx} src={src} alt={`${slug} part ${idx + 1}`} className="w-full block" />
       ))}

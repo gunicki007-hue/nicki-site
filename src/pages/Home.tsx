@@ -71,7 +71,7 @@ export default function Home() {
         onContactClick={() => setIsContactOpen(true)}
       />
       
-      <main className="flex-grow flex flex-col">
+      <main className="flex flex-col w-full">
         {/* PC View */}
         <div className={`hidden md:flex flex-col flex-grow ${isDarkTheme ? '' : 'pt-[91px]'}`}>
           <AnimatePresence mode="wait">
@@ -93,7 +93,7 @@ export default function Home() {
         </div>
 
         {/* Mobile View */}
-        <div className="flex md:hidden flex-col flex-grow pt-[54px]">
+        <div className="flex md:hidden flex-col w-full pt-[54px]">
           {renderMobileContent()}
         </div>
       </main>
