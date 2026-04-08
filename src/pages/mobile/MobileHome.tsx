@@ -44,7 +44,12 @@ export default function MobileHome({ language, onCaseClick }: MobileHomeProps) {
 
       {/* Slice 2: Case 1 (Web3) */}
       <div className="relative w-full">
-        <img src={images.slice2} alt="Case 1" className="w-full block" />
+        <img 
+          src={images.slice2} 
+          alt="Case 1" 
+          className="w-full block cursor-pointer" 
+          onClick={() => onCaseClick('web3')}
+        />
         <button 
           className={buttonClass} 
           style={{ bottom: '6.14%' }}
@@ -56,7 +61,12 @@ export default function MobileHome({ language, onCaseClick }: MobileHomeProps) {
 
       {/* Slice 3: Case 2 (Insurance) */}
       <div className="relative w-full">
-        <img src={images.slice3} alt="Case 2" className="w-full block" />
+        <img 
+          src={images.slice3} 
+          alt="Case 2" 
+          className="w-full block cursor-pointer" 
+          onClick={() => onCaseClick('insurance')}
+        />
         <button 
           className={buttonClass} 
           style={{ bottom: '6.14%' }}
@@ -68,7 +78,12 @@ export default function MobileHome({ language, onCaseClick }: MobileHomeProps) {
 
       {/* Slice 4: Case 3 (AI Ops) */}
       <div className="relative w-full">
-        <img src={images.slice4} alt="Case 3" className="w-full block" />
+        <img 
+          src={images.slice4} 
+          alt="Case 3" 
+          className="w-full block cursor-pointer" 
+          onClick={() => onCaseClick('aesthetic')}
+        />
         <button 
           className={buttonClass} 
           style={{ bottom: '6.14%' }}
@@ -80,7 +95,12 @@ export default function MobileHome({ language, onCaseClick }: MobileHomeProps) {
 
       {/* Slice 5: Design Systems */}
       <div className="relative w-full">
-        <img src={images.slice5} alt="Design Systems" className="w-full block" />
+        <img 
+          src={images.slice5} 
+          alt="Design Systems" 
+          className="w-full block cursor-pointer" 
+          onClick={() => onCaseClick('system')}
+        />
         <button 
           className={buttonClass} 
           style={{ bottom: '7.27%' }} // 60 / 825 = 7.27%
