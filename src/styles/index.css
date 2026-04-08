@@ -9,7 +9,7 @@
 
 @layer base {
   body {
-    @apply bg-[#F5F5F5] text-[#111111] antialiased font-sans;
+    @apply bg-black text-[#111111] antialiased font-sans;
     font-feature-settings: "cv02", "cv03", "cv04", "cv11";
   }
 }

@@ -36,7 +36,7 @@ export default function MobileHome({ language, onCaseClick }: MobileHomeProps) {
   const buttonClass = "absolute left-1/2 -translate-x-1/2 w-[52%] aspect-[39/9] rounded-[20px] border border-black flex items-center justify-center text-black font-medium text-[3.5vw] active:bg-black/5 transition-colors cursor-pointer bg-transparent";
 
   return (
-    <div className="w-full flex flex-col bg-[#EBEBEB]">
+    <div className="w-full flex flex-col bg-[#EBEBEB] pt-[50vh] -mt-[50vh]">
       {/* Slice 1: Hero */}
       <div className="relative w-full">
         <img src={images.slice1} alt="Hero" className="w-full block" />
@@ -91,7 +91,7 @@ export default function MobileHome({ language, onCaseClick }: MobileHomeProps) {
       </div>
 
       {/* Slice 6: Footer */}
-      <div className="relative w-full bg-[#111111] pb-[50vh] -mb-[50vh]">
+      <div className="relative w-full bg-[#111111] pb-[env(safe-area-inset-bottom)]">
         <img src={images.slice6} alt="Footer" className="w-full block relative z-10" />
       </div>
     </div>
