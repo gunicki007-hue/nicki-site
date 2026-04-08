@@ -63,7 +63,7 @@ export default function Navigation({ activeItem = 'Profile', language = 'EN', th
               className="bg-white text-black px-4 py-1.5 text-[11px] font-bold tracking-wider rounded-full transition-all active:scale-95 uppercase"
               onClick={onContactClick}
             >
-              Contact
+              {contactText}
             </button>
           </div>
         </div>
