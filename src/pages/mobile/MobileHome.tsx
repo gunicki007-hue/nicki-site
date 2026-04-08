@@ -36,7 +36,7 @@ export default function MobileHome({ language, onCaseClick }: MobileHomeProps) {
   const buttonClass = "absolute left-1/2 -translate-x-1/2 w-[52%] aspect-[39/9] rounded-[20px] border border-black flex items-center justify-center text-black font-medium text-[3.5vw] active:bg-black/5 transition-colors cursor-pointer bg-transparent";
 
   return (
-    <div className="w-full flex flex-col bg-[#EBEBEB] pt-[50vh] -mt-[50vh]">
+    <div className="w-full flex flex-col bg-[#EBEBEB]">
       {/* Slice 1: Hero */}
       <div className="relative w-full">
         <img src={images.slice1} alt="Hero" className="w-full block" />

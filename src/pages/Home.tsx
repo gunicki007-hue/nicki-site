@@ -56,7 +56,7 @@ export default function Home() {
   const isDarkTheme = currentPage.startsWith('case-') || currentPage === 'case-web3';
 
   return (
-    <div className={`min-h-screen flex flex-col ${isDarkTheme ? 'bg-[#050505]' : 'bg-black'}`}>
+    <div className={`min-h-screen flex flex-col ${isDarkTheme ? 'bg-[#050505]' : 'bg-[#121212]'}`}>
       <Navigation 
         activeItem={currentPage.startsWith('case-') ? '' : currentPage} 
         language={language} 
